@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
                     alt={RESUME_DATA.name}
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80";
+                      target.src = "https://drive.google.com/file/d/1g7CeauurSZQehUBvluje-cxUQIPU7dJb/view?usp=drive_link";
                       target.onerror = null;
                     }}
                   />
